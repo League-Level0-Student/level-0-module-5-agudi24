@@ -25,7 +25,7 @@ public static void main(String[] args) {
 			System.out.println(m + " is odd");
 		}
 	}
-	for (int n = 0; n < 784; n++) {
+	for (int n = 0; n < 778; n++) {
 		if(n%7==0) {
 		System.out.println(n);
 		}
@@ -48,13 +48,13 @@ for (int r = 1; r < 4; r++) {
 	
 	for (int s = 1; s < 4; s++) {
 		if(r==1) {
-		System.out.print(s);
+		System.out.print(s+ " ");
 		}
 		else if(r==2) {
-			System.out.print(s+3);
+			System.out.print(s+3 + " ");
 		}
 		else if(r==3) {
-			System.out.print(s+6);
+			System.out.print(s+6 + " ");
 		}
 			
 	}
@@ -62,7 +62,7 @@ for (int r = 1; r < 4; r++) {
 }
 	
 for (int b = 0; b < 10; b++) {
-	for (int c = 1; c < 10; c++) {
+	for (int c = 1; c < 11; c++) {
 		if(b==0) {
 		System.out.print(c + " ");
 	}
@@ -81,8 +81,30 @@ for (int b = 0; b < 10; b++) {
 		else if(b==5) {
 			System.out.print(c+50 + " ");
 		}
+		else if(b==6) {
+			System.out.print(c+60 + " ");
+		}
+		else if(b==7) {
+			System.out.print(c+70 + " ");
+		}
+		else if(b==8) {
+			System.out.print(c+80 + " ");
+		}
+		else if(b==9) {
+			System.out.print(c+90 + " ");
+		}
+		
 }
 	System.out.print("\n");
+}
+for (int i = 0; i < 8; i++) {
+	for (int j = 0; j < i; j++) {
+		System.out.print("*\t");
+	}
+	System.out.println("");
+}
+for (int i = 0; i < 100; i++) {
+	System.out.println(100-i);
 }
 }
 }
